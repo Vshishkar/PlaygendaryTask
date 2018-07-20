@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{65F8FACA-D180-282A-F09D-50A4C8DEC2A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_4;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;SPINE_TK2D;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity5.6.4p4/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity5.6.4p4/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\GameFlow\GUI\Screens\MenuScreen.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\CustomMeshes\CircleColoredMesh.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\CustomMeshes\ColorQuad.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\CustomMeshes\DrawableMesh.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\CustomMeshes\GradientQuad.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\CustomMeshes\TorMesh.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\CustomMeshes\TrapezoidMesh.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Debug\CustomDebug.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Debug\CustomGUI.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\AnimationCurveExtention.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\GUIBounceControl.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\GUIButtonStateSwitcher.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\GUICellColliderSetter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\GUIControl.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\GUIDynamicCounter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\GUILayoutCell.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\GUILayoutUpdater.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\GUILayouter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\GUIOrientationManger.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\Grid.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\IgnoreTimeScale.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\InvokeData.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\ScreenSize\ColliderResizer.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\ScreenSize\ColliderSetter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\ScreenSize\MaskSetter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\ScreenSize\PositionSetter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\ScreenSize\ScaleSetter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\ScreenSize\SizeHelper.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\ScreenSize\SizeHelperSettings.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\ScreenSize\SizeSetter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\ScreenSize\SpriteSetter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\SimpleScrollBar.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\SpriteRenderInitializer.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\GUI\UIButtonScaler.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Asset\Asset.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Asset\AssetLink.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Asset\AssetQueue.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Asset\AssetResource.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Asset\AssetStreaming.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Asset\AssetUtility.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Auxiliary Code\ArrayHelper.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Auxiliary Code\FlashSupport.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Auxiliary Code\PoolableObject.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Auxiliary Code\RegisteredComponent.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Auxiliary Code\SystemTime.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Auxiliary Code\UnitySingleton.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Bezier\QuadBez.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Bezier\QuadraticBezier.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\BundlePrefix.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CSVReader.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CallbackCache.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Constants.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CustomAttributes\ButtonAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CustomAttributes\EnumArrayAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CustomAttributes\EnumAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CustomAttributes\EnumFlagsAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CustomAttributes\PreProcessBuildAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CustomAttributes\PropertyValueAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CustomAttributes\ResourceLinkAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CustomAttributes\SceneNameAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CustomAttributes\SortingLayerAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CustomAttributes\SpriteNameAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\CustomAttributes\VectorCompactAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\DeviceInfo.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Extensions\ArrayExtention.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Extensions\AsyncOperationExtension.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Extensions\GameObjectAnimationExtension.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Extensions\GameObjectExtension.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Extensions\ListQueueExtension.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Extensions\MaterialExtension.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Extensions\StringExtension.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Extensions\TimeSpanExtension.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Extensions\TransformExtension.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Extensions\VectorExtension.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Functions\CubicFunction.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Functions\QuadraticFunction.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\GUIDMapper.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\LocalisationManager.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\MiniJSON\JSONAnimationCurveConverter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\MiniJSON\JSONConvert.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\MiniJSON\JSONCustomConverter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\MiniJSON\JSONDateTimeConverter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\MiniJSON\JSONKeyFrameConverter.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\MiniJSON\JSONParser.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\MiniJSON\JSONSerializer.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\MiniJSON\MiniJSON.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\PathUtils.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Pool\IPoolCallback.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Pool\ObjectPool.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Pool\ObjectPoolHelper.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Pool\PoolManager.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Pool\PoolableObjectInfo.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Scheduler.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\ScreenDimentions.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\ScriptableSingleton.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\SerializableDictionary.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\SerializableDictionaryDrawer.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\TextureHelper.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\TextureManager.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Util\StackRandomizer.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\HelperClasses\Util\Vector2i.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\NestedPrefabs\NestedPrefab.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Serialization\JSONSerializedValue.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Serialization\OverrideAttribute.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Serialization\SerializeUtility.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Serialization\SerializedField.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Serialization\SerializedType.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Serialization\SerializedValue.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DExtension\Code\tk2dClippedSpriteProgressBar.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DExtension\Code\tk2dMySpriteFromTexture.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DExtension\Code\tk2dProgressBar.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DExtension\Code\tk2dUIScrollView.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Camera\tk2dCamera.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Camera\tk2dCameraAnchor.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Camera\tk2dCameraUtil.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Fonts\tk2dFont.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Fonts\tk2dFontData.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Fonts\tk2dTextColorizer.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Fonts\tk2dTextGeomGen.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Fonts\tk2dTextMesh.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Fonts\tk2dTextMeshData.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Gui\tk2dButton.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Runtime\tk2dResource.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Runtime\tk2dSystem.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Runtime\tk2dUpdateManager.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dAnimatedSprite.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dBaseSprite.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dClippedSprite.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dEditorSpriteDataUnloader.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dPixelPerfectHelper.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dRuntimeSpriteCollection.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dSlicedSprite.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dSprite.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAnimation.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAnimator.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteAttachPoint.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollection.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionData.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionInterfaces.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteCollectionSize.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteFromTexture.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dSpriteGeomGen.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dStaticSpriteBatcher.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\Sprites\tk2dTiledSprite.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\tk2dBaseMesh.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\tk2dShiftCollector.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\tk2dSliceBordersCollector.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Code\tk2dUtil.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dTileMap\Code\tk2dTileMap.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dTileMap\Code\tk2dTileMapBuilderUtil.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dTileMap\Code\tk2dTileMapChunks.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dTileMap\Code\tk2dTileMapColliderBuilder.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dTileMap\Code\tk2dTileMapColliderBuilder2D.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dTileMap\Code\tk2dTileMapData.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dTileMap\Code\tk2dTileMapMeshBuilder.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIBaseItemControl.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDragItem.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDropDownItem.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIDropDownMenu.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIHoverItem.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIMultiStateToggleButton.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIProgressBar.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIScrollableArea.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIScrollbar.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUISoundItem.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUITextInput.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleButton.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleButtonGroup.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIToggleControl.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUITweenItem.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIUpDownButton.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Controls\tk2dUIUpDownHoverButton.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Core\tk2dUIAudioManager.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Core\tk2dUICamera.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Core\tk2dUIItem.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Core\tk2dUILayout.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Core\tk2dUILayoutContainer.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Core\tk2dUILayoutContainerSizer.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Core\tk2dUIManager.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Core\tk2dUIMask.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Core\tk2dUISpriteAnimator.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Core\tk2dUITime.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Code\Core\tk2dUITouch.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Batching\tmBatchObject.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Batching\tmBatchedInstance.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Batching\tmBatchingManager.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Batching\tmBatchingType.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Batching\tmSkinnedBatchedInstance.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Batching\tmStaticBatchedGameObject.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Collections\tmTextureCollection.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Collections\tmTextureCollectionBase.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Collections\tmTextureCollectionPlatform.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Managment\tmManager.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Managment\tmPlatform.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Managment\tmSettings.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Renders\tmBatchRender.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Renders\tmIRebuildable.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Renders\tmParticleSystemRender.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Renders\tmTextureRender.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Renders\tmTextureRenderBase.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Supply\tmResourceCollectionLink.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\Supply\tmUtility.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\TextureCache\TextureCache.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\TextureCache\TextureProvider.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\TextureCache\TextureProviderResources.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\TextureCache\TextureProviderStream.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\TextureManagment\Scripts\TextureCache\TextureProviderWWW.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenAmbientLight.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenCameraHeight.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenCameraSize.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenColor.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenFOV.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenGUICellSize.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenMaterialTransparency.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenParticleSystemStartSize.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenPosition.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenRotation.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenScale.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenTextureOffset.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenTk2dSpriteScale.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweenTransform.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\Tweener.cs" />
+     <Compile Include="Assets\Scripts\SharedScripts\Playgendary\Tweens\TweensCurves.cs" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Goodies\TexturePacker\Exporter\2dtoolkit\exporter.xml" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\PhotoshopBlends\PhotoshopBlendColorVertex.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Shaders\DepthMask.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\legacy\BlendVertexColorA8_Outlined.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\resources\PremulVertexColor.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\goodies\PackedTextMesh.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\PhotoshopBlends\Blends\PhotoshopBlends.cginc" />
+     <None Include="Assets\Textures\Fonts\PT_Sans_Bold_40.fnt" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2dUI\Shaders\DepthMaskSolid.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\BlendVertexColorWithTint.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\PhotoshopBlends\Blends\ColorSpaces.cginc" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\resources\BlendVertexColor.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\legacy\BlendVertexColorGrayscale.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\resources\BlendVertexColorA8.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\resources\PremulVertexColorA8.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\PhotoshopBlends\PhotoshopBlendColorVertexPremultiply.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\legacy\BlendVertexColorTint.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\PhotoshopBlends\Blends\ColorSpacesExt.cginc" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\legacy\BlendVertexColorGrayscaleColorize.shader" />
+     <None Include="Assets\Scripts\SharedScripts\Playgendary\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity5.6.4p4/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity5.6.4p4/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity5.6.4p4/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity5.6.4p4/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity5.6.4p4/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity5.6.4p4/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity5.6.4p4/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

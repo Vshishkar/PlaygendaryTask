@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee247f9ea94604caabdf7cdd0f8544b4, type: 3}
+  m_Name: TweensCurves
+  m_EditorClassIdentifier: Assembly-CSharp::TweenWithCurve
+  curves:
+  - id: BounceOutPosition
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 11.179992
+        outSlope: 11.179992
+        tangentMode: 0
+      - time: 0.29996485
+        value: 1.0462534
+        inSlope: 0.057818424
+        outSlope: 0.057818424
+        tangentMode: 0
+      - time: 0.6977027
+        value: 0.96874005
+        inSlope: -0.045738827
+        outSlope: -0.045738827
+        tangentMode: 10
+      - time: 1
+        value: 1
+        inSlope: -0.4408137
+        outSlope: -0.4408137
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: BounceOutScale
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+      - time: 0.45
+        value: 1.1999999
+        inSlope: 0.0507418
+        outSlope: 0.0507418
+        tangentMode: 0
+      - time: 0.75
+        value: 0.9
+        inSlope: -0.064537354
+        outSlope: -0.064537354
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: -1.7488836
+        outSlope: -1.7488836
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: PopupAppear
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: -0.0008225144
+        value: -0.0034190016
+        inSlope: 5.092334
+        outSlope: 5.092334
+        tangentMode: 0
+      - time: 0.31371814
+        value: 0.93386894
+        inSlope: 1.1226804
+        outSlope: 1.1226804
+        tangentMode: 0
+      - time: 0.6544463
+        value: 1.0174831
+        inSlope: -0.11685409
+        outSlope: -0.11685409
+        tangentMode: 0
+      - time: 0.99880177
+        value: 0.99661386
+        inSlope: -0.03644416
+        outSlope: -0.03644416
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: SmallObjectsAppear
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: -0.0008225144
+        value: -0.0034190016
+        inSlope: 5.092334
+        outSlope: 5.092334
+        tangentMode: 0
+      - time: 0.30571482
+        value: 1.0355734
+        inSlope: 1.3825701
+        outSlope: 1.3825701
+        tangentMode: 0
+      - time: 0.65738773
+        value: 1.1039345
+        inSlope: -0.6374518
+        outSlope: -0.6374518
+        tangentMode: 0
+      - time: 0.99880177
+        value: 0.99661386
+        inSlope: -0.03644416
+        outSlope: -0.03644416
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: BounceOutPositionForTitle
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0.6181864
+        outSlope: 0.6181864
+        tangentMode: 0
+      - time: 0.3
+        value: -0.099999994
+        inSlope: -0.012897896
+        outSlope: -0.012897896
+        tangentMode: 0
+      - time: 0.59999996
+        value: 1.1
+        inSlope: -0.03209749
+        outSlope: -0.03209749
+        tangentMode: 0
+      - time: 0.79999995
+        value: 0.95
+        inSlope: -0.030407192
+        outSlope: -0.030407192
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0.07696944
+        outSlope: 0.07696944
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: BounceOutScaleForEvents
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0.5182869
+        outSlope: 0.5182869
+        tangentMode: 0
+      - time: 0.5
+        value: 1.1500001
+        inSlope: -0.007088218
+        outSlope: -0.007088218
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: -0.46522653
+        outSlope: -0.46522653
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: BounceOutScaleForIconEvents
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 3.6969411
+        outSlope: 3.6969411
+        tangentMode: 0
+      - time: 0.17500001
+        value: 1.25
+        inSlope: 0.007869995
+        outSlope: 0.007869995
+        tangentMode: 0
+      - time: 0.5
+        value: 0.87500006
+        inSlope: -0.0019616762
+        outSlope: -0.0019616762
+        tangentMode: 0
+      - time: 0.82500005
+        value: 1.051
+        inSlope: 0.0032486622
+        outSlope: 0.0032486622
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0.0008626079
+        outSlope: 0.0008626079
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: BounceOutPositionForMission
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -1.1168244
+        outSlope: -1.1168244
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: -1.0970949
+        outSlope: -1.0970949
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: BounceOutScaleNotEnoughValue
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0.5182869
+        outSlope: 0.5182869
+        tangentMode: 0
+      - time: 0.5
+        value: 1.4000001
+        inSlope: -0.011654802
+        outSlope: -0.011654802
+        tangentMode: 0
+      - time: 0.545
+        value: 1.3610001
+        inSlope: -2.1116982
+        outSlope: -2.1116982
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: -0.18635476
+        outSlope: -0.18635476
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: BounceOutScaleResumeTimer
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 3.6640236
+        outSlope: 3.6640236
+        tangentMode: 0
+      - time: 0.65000004
+        value: 1.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0.009556446
+        outSlope: 0.009556446
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: BounceOutScaleLoopForIcon
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0.5182869
+        outSlope: 0.5182869
+        tangentMode: 0
+      - time: 0.4
+        value: 1.1500001
+        inSlope: -0.007088218
+        outSlope: -0.007088218
+        tangentMode: 0
+      - time: 0.8
+        value: 0.96999997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0.3027565
+        outSlope: 0.3027565
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: BounceOutScaleForBuddyGameOver
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 5.1903515
+        outSlope: 5.1903515
+        tangentMode: 0
+      - time: 0.5
+        value: 1.15
+        inSlope: -0.007088218
+        outSlope: -0.007088218
+        tangentMode: 0
+      - time: 0.79999995
+        value: 0.9
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0.036684323
+        outSlope: 0.036684323
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: OnUPBounceForButtonScaler
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+      - time: 0.45
+        value: 1.5999999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.75
+        value: 0.7
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: -5.606991
+        outSlope: -5.606991
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: OnUPSmallBounceForButtonScaler
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+      - time: 0.45
+        value: 1.4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.75
+        value: 0.79999995
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: -3.8172543
+        outSlope: -3.8172543
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: BounceScaleOnce
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0.7565964
+        outSlope: 0.7565964
+        tangentMode: 0
+      - time: 0.5009449
+        value: 1.3005847
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1.0007659
+        inSlope: -0.6887077
+        outSlope: -0.6887077
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: DoubleBounceWithFade
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 8.780973
+        outSlope: 8.780973
+        tangentMode: 0
+      - time: 0.19999999
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.5535815
+        value: -0.3005522
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.750815
+        value: 0.20354433
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.9990303
+        value: 0.001428172
+        inSlope: -0.67736953
+        outSlope: -0.67736953
+        tangentMode: 0
+      - time: 1
+        value: 0.0007659197
+        inSlope: -0.6887077
+        outSlope: -0.6887077
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: TripleBounceWithFade
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0.052036747
+        outSlope: 0.052036747
+        tangentMode: 0
+      - time: 0.19999999
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.39883694
+        value: -0.29920027
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.5975303
+        value: 0.29953104
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.7986021
+        value: -0.10287836
+        inSlope: -0.029559558
+        outSlope: -0.029559558
+        tangentMode: 0
+      - time: 0.9990303
+        value: 0.001428172
+        inSlope: 0.008304302
+        outSlope: 0.008304302
+        tangentMode: 0
+      - time: 1
+        value: 0.0007659197
+        inSlope: -0.6887077
+        outSlope: -0.6887077
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: BounceHUDCurve
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0.31667653
+        outSlope: 0.31667653
+        tangentMode: 0
+      - time: 0.25
+        value: 1.0500001
+        inSlope: 0.00097381696
+        outSlope: 0.00097381696
+        tangentMode: 0
+      - time: 0.75
+        value: 0.95000005
+        inSlope: 0.0009725997
+        outSlope: 0.0009725997
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0.30983505
+        outSlope: 0.30983505
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - id: PreGameHUDBoostersCurve
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0.31667653
+        outSlope: 0.31667653
+        tangentMode: 0
+      - time: 0.25
+        value: 1.0300001
+        inSlope: 0.00097381696
+        outSlope: 0.00097381696
+        tangentMode: 0
+      - time: 0.75
+        value: 0.97
+        inSlope: 0.0009725997
+        outSlope: 0.0009725997
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0.30983505
+        outSlope: 0.30983505
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

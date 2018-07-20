@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cb500cf0f58e74f9a52a8af931edde, type: 3}
+  m_Name: -tk2d
+  m_EditorClassIdentifier: 
+  version: 4
+  spriteAnimationIndex: []
+  fontIndex:
+  - assetGUID: 988030b61b387457e92bb73cb5da7d27
+    dataGUID: 3ee897ecc5b3f40b2987dff93eba7b60
+    managed: 0
+    loadable: 0
+  spriteCollectionIndex:
+  - name: Fonts
+    spriteCollectionGUID: 1284a6ab54f2649459990c142beee15a
+    spriteCollectionDataGUID: 36717af0c8ea34b66bd74a623d034258
+    spriteNames: []
+    spriteTextureGUIDs: []
+    spriteTextureTimeStamps: []
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: MainSpriteCollection
+    spriteCollectionGUID: 4c8df540ee64d430bb05f5de118c423f
+    spriteCollectionDataGUID: 99e591ce0e99742f0ac40ea6064575dd
+    spriteNames:
+    - bonus
+    spriteTextureGUIDs:
+    - 69391b8c2d3184348a893cae2900ef98
+    spriteTextureTimeStamps:
+    - 1470260729
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

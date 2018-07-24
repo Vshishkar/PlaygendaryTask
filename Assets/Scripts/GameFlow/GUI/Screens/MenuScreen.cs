@@ -16,13 +16,13 @@ public class MenuScreen : MonoBehaviour
 
     void OnEnable()
     {
-        bonusButton.OnClick += BonusButton_OnClick;
+      //  bonusButton.OnClick += BonusButton_OnClick;
     }
 
 
     void OnDisable()
     {
-        bonusButton.OnClick -= BonusButton_OnClick;
+       // bonusButton.OnClick -= BonusButton_OnClick;
     }
 
     #endregion

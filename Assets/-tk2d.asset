@@ -42,3 +42,16 @@ MonoBehaviour:
     loadable: 0
     assetName: 
     version: 3
+  - name: Reactangle
+    spriteCollectionGUID: e25bf72854cb44397a4117b1110d3023
+    spriteCollectionDataGUID: b67d5fafb7d3340c9a96a48a1987e6a9
+    spriteNames:
+    - block
+    spriteTextureGUIDs:
+    - a847d6500593445df96634446ca77870
+    spriteTextureTimeStamps:
+    - 1532517602
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

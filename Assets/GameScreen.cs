@@ -23,16 +23,21 @@ public class GameScreen : MonoBehaviour {
         dotStartPosition = dot.transform.position;
     }
 
+
     void OnEnable ()
     {
         swipeButton.OnClick += SwipeButton_OnClick;
+
     }
 
-
+   
     void OnDisable()
     {
         swipeButton.OnClick -= SwipeButton_OnClick;
     }
+
+
+
 
     //TODO refactoring 
     void SwipeButton_OnClick ()

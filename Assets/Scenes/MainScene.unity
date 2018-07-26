@@ -122,6 +122,7 @@ GameObject:
   - component: {fileID: 150015635}
   - component: {fileID: 150015634}
   - component: {fileID: 150015637}
+  - component: {fileID: 150015638}
   m_Layer: 5
   m_Name: DotSprite
   m_TagString: Untagged
@@ -219,6 +220,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 60, y: 60, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &150015638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 150015632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb3e46e9d6fa47f3aa90d504d35c681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rePositionPlace: {fileID: 0}
+  settedCollider: {fileID: 150015637}
+  sizeMultiplier: 1
 --- !u!1 &156370551
 GameObject:
   m_ObjectHideFlags: 0
@@ -2362,6 +2377,9 @@ GameObject:
   - component: {fileID: 2102055036}
   - component: {fileID: 2102055037}
   - component: {fileID: 2102055038}
+  - component: {fileID: 2102055041}
+  - component: {fileID: 2102055040}
+  - component: {fileID: 2102055039}
   m_Layer: 5
   m_Name: BlockCell
   m_TagString: Untagged
@@ -2416,3 +2434,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 437cba507d5af4608ab3d0234cc975a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blocks: []
+--- !u!114 &2102055039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102055035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb3e46e9d6fa47f3aa90d504d35c681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rePositionPlace: {fileID: 0}
+  settedCollider: {fileID: 2102055040}
+  sizeMultiplier: 1
+--- !u!65 &2102055040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102055035}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2102055041
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102055035}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
